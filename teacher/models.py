@@ -4,7 +4,7 @@ class Teacher(models.Model):
     first_name = models.CharField(max_length=20)
     last_name = models.CharField(max_length=20)
     age = models.PositiveSmallIntegerField()
-    gender = models.CharField()
+    gender = models.CharField(max_length=20)
     teacher_Id = models.PositiveSmallIntegerField()
     email = models.EmailField()
     nationality = models.CharField(max_length=20)
